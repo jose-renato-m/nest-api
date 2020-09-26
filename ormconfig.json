@@ -2,8 +2,8 @@
   "type": "postgres",
   "host": "localhost",
   "port": 5432,
-  "username": "jrenato",
-  "password": "",
+  "username": "postgres",
+  "password": "docker",
   "database": "nest_api",
   "entities": ["dist/**/*.entity{.ts,.js}"],
   "synchronize": true
