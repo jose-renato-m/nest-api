@@ -29,7 +29,7 @@ export class UserResolver {
     @Args('data') data: CreateUserInput
   ): Promise<User> {
     const user = await this.userService.createUser(data);
-    return user
+    return user;
   }
 
   @Mutation(() => User)
